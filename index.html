@@ -73,12 +73,12 @@
       <div class="overlay">
 
         <h1 class="main__cover-title">
-          <span>ОНО</span><span>ТЕБЕ</span><span>НАДО</span>
+          <span>ОНО</span><br><span>ТЕБЕ</span><br><span>НАДО</span>
         </h1>
 
         <div class="description">
 
-          <p>АУКЦИОН ВЕЩЕЙ, В КОТОРЫЕ НИКТО НЕ ВЕРИЛ</p>
+          <p class="description__text">АУКЦИОН ВЕЩЕЙ, В КОТОРЫЕ НИКТО НЕ ВЕРИЛ</p>
 
           <button>СДЕЛАТЬ СТАВКУ</button>
 
@@ -89,20 +89,63 @@
     </div>
 
     <lots class="lots">
-      <ul>
-        <li>
-          <a href="#">ФИЛЬМ РЕЖИССЕРА И ТД...</a>
-          <article>Не просто бросиа, а ушел....</article>
+
+      <h2 class="lots__heading">Лоты</h2>
+
+      <ul class="lots__card-list">
+
+
+        <li class="lots__card-list-item">
+
+          <a class="card-link" href="#">
+
+            <div class="card card_type_film">
+              <div class="overlay"></div>
+              <h3 class="card__title">Фильм режиссёра, который бросил киношколу</h3>
+              <article class="card__text">
+                Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что
+                режиссёр — Пол Томас Андерсон?
+              </article>
+            </div>
+            
+          </a>
+
         </li>
-        <li>
-          <a href="#">КНИГА, ГДЕ ОПИСАН И ТД...</a>
-          <article>Объем почти в ....</article>
+
+        <li class="lots__card-list-item">
+          <a class="card-link" href="#">
+            <div class="card card_type_book">
+              <div class="overlay"></div>
+              <h3 class="card__title">Книга, где описан один скучный день из жизни рекламного агента</h3>
+              <article class="card__text">
+                Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней
+                одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И
+                это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?
+              </article>
+
+            </div>
+          </a>
         </li>
-        <li>
-          <a href="#">КАРТИНА, КОТОРУЮ И ТД...</a>
-          <article>Ну действительно....</article>
+
+        <li class="lots__card-list-item">
+          <a class="card-link" href="#">
+            <div class="card card_type_picture">
+              <div class="overlay"> </div>
+              <h3 class="card__title">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
+              <article class="card__text">
+                Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку.
+                Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из
+                революционных работ Кандинского?
+              </article>
+
+            </div>
+          </a>
         </li>
+
       </ul>
+
+      <a class="lots__look-more-link" href="#">Посмотреть больше</a>
+
     </lots>
 
     <about class="about">

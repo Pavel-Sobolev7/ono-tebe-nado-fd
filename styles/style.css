@@ -75,15 +75,77 @@
 
 /*оверлей*/
 .cover {
+    min-height: 757px;
+    position: relative;
     background-image: url("../images/cover.jpg");
 
 }
 
 .overlay {
     background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    inset: 0;
 }
 
 
-.main__cover-title {}
+.main__cover-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 165px 50px 0 50px;
+}
 
-.description {}
+.description {
+    display: flex;
+    justify-content: space-between;
+    align-content: end;
+}
+
+.description__text {
+    display: inline-block;
+}
+
+/*лоты*/
+.lots {}
+
+.lots__heading {}
+
+.lots__card-list {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+.lots__card-list-item {
+    
+}
+
+.card-link {}
+
+.card {
+    background-size: cover;
+    background-position: center;
+    min-height: 596px;
+    position: relative;
+
+}
+
+
+.card__title {
+}
+
+.card__text {
+}
+
+
+.card_type_film {
+    background-image: url("../images/card-lot-01.jpg");
+}
+
+.card_type_book {
+    background-image: url("../images/card-lot-02.jpg");
+}
+
+.card_type_picture {
+    background-image: url("../images/card-lot-03.jpg");
+}
