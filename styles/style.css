@@ -1,1 +1,45 @@
-/* место для вашего кода */
+.header {
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+    align-items: center;
+}
+
+.header__menu {}
+
+.header__links-list {
+    display: flex;
+    gap: 30px;
+
+}
+
+.header__links-list-item {}
+
+.header__link {}
+
+.header__links-list-item_no-bullit {}
+
+.header__link_active {}
+
+
+
+/*Логотип*/
+.header__logo {}
+
+.header__logo-image {}
+
+.header__logo-image-link {}
+
+
+
+/*Контакты*/
+.header__address {}
+
+.address {}
+
+.address__links-list {}
+
+.adress__links-list-item {}
+
+.address__link {}
+
+.address__link_no-underline {}
