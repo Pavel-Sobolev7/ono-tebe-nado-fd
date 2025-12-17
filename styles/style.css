@@ -1,13 +1,26 @@
+.body {
+    margin: 0;
+}
+
 .header {
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
+
+
 }
 
-.header__menu {}
+.header__menu {
+    width: 391px;
+
+
+}
 
 .header__links-list {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 133px 36px 100px 50px;
     gap: 30px;
 
 }
@@ -22,24 +35,55 @@
 
 
 
-/*Логотип*/
-.header__logo {}
+/*логотип*/
+.header__logo {
+    padding-top: 50px;
+}
 
 .header__logo-image {}
 
-.header__logo-image-link {}
+.header__logo-image-link {
+    display: inline-block;
+    width: 148px;
+    height: 105px;
+}
 
 
-
-/*Контакты*/
-.header__address {}
+/*контакты*/
+.header__address {
+    width: 240px;
+    height: 98px;
+    margin: 95px 50px 0px 184px;
+}
 
 .address {}
 
-.address__links-list {}
+.address__links-list {
+    list-style: none;
+}
 
 .adress__links-list-item {}
 
 .address__link {}
 
 .address__link_no-underline {}
+
+
+/*главная*/
+.main {}
+
+
+/*оверлей*/
+.cover {
+    background-image: url("../images/cover.jpg");
+
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+.main__cover-title {}
+
+.description {}
