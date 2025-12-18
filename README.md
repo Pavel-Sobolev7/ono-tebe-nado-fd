@@ -1,1 +1,1 @@
-https://github.com/Pavel-Sobolev7/ono-tebe-nado
+https://github.com/Pavel-Sobolev7/ono-tebe-nado-fd
