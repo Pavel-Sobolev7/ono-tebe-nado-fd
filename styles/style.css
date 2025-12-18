@@ -6,8 +6,6 @@
     padding-bottom: 93px;
 }
 
-.header__menu {}
-
 .header__links-list {
     padding-left: 48px;
     width: 435px;
@@ -37,16 +35,11 @@
     text-decoration: none;
 }
 
-.header__logo {}
-
-.header__logo-image {}
-
 .header__logo-image-link {
     display: inline-block;
     width: 148px;
     height: 105px;
 }
-
 
 /*контакты*/
 .header__address {
@@ -55,13 +48,9 @@
     padding-left: 100px;
 }
 
-.address {}
-
 .address__links-list {
     list-style: none;
 }
-
-.adress__links-list-item {}
 
 .address__link {
     text-decoration: none;
@@ -78,8 +67,6 @@
 }
 
 /*главная*/
-.main {}
-
 .cover {
     min-height: 757px;
     position: relative;
@@ -95,8 +82,6 @@
     inset: 0;
     z-index: 0;
 }
-
-.cover-title {}
 
 .aligned-text {
     margin-top: 190px;
@@ -207,8 +192,6 @@
     color: rgba(255, 255, 255, 1);
 }
 
-.card-link {}
-
 .card {
     background-size: cover;
     background-position: center;
@@ -251,7 +234,6 @@
     z-index: 1;
 }
 
-
 .card_type_film {
     background-image: url("../images/card-lot-01.jpg");
 }
@@ -278,8 +260,6 @@
 }
 
 /*об аукционе*/
-.about {}
-
 .about__column {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -318,8 +298,6 @@
     line-height: 100%;
     letter-spacing: 0%;
     text-transform: uppercase;
-
-
 }
 
 .about__text {
@@ -355,16 +333,12 @@
     margin-left: -30px;
 }
 
-.footer__menu {}
-
 .footer__menu-list {
     list-style: none;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
-.footer__menu-list-item {}
 
 .footer__menu-link {
     font-family: Raleway;
