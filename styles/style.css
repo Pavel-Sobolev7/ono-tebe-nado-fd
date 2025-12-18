@@ -2,23 +2,33 @@
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
+    margin-top: 92px;
+    padding-bottom: 93px;
 }
 
 .header__menu {}
 
 .header__links-list {
+    padding-left: 48px;
+    width: 435px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 30px;
-
 }
 
 .header__links-list-item {
     list-style: circle;
 }
 
-.header__link {}
+.header__link {
+    font-family: Raleway;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
 
 .header__links-list-item_no-bullit {
     list-style: none;
@@ -43,6 +53,7 @@
 .header__address {
     justify-self: center;
     align-self: center;
+    padding-left: 100px;
 }
 
 .address {}
@@ -53,7 +64,16 @@
 
 .adress__links-list-item {}
 
-.address__link {}
+.address__link {
+    text-decoration: none;
+    font-style: normal;
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24.3px;
+    letter-spacing: 0%;
+
+}
 
 .address__link_no-underline {
     text-decoration: none;
@@ -83,21 +103,24 @@
 .cover-title {}
 
 .aligned-text {
-    /*todo*/
-    margin: 65px 50px 0 50px;
-    color: white;
+    margin-top: 190px;
+    padding-left: 50px;
+
     font-family: Raleway;
     font-weight: 700;
     font-style: Bold;
     font-size: 100px;
-    leading-trim: NONE;
-    line-height: 114.99999999999999%;
-    letter-spacing: 30%;
+    line-height: 40px;
+
     text-transform: uppercase;
+    color: rgba(255, 255, 255, 1);
+
+
 
 }
 
 .aligned-text_left {
+    padding-top: 12px;
     display: flex;
     justify-content: flex-start;
 }
@@ -105,36 +128,71 @@
 .aligned-text_center {
     display: flex;
     justify-content: center;
+    padding-right: 20px;
+    padding-top: 57px;
 }
 
 .aligned-text_right {
+    padding-top: 55px;
+    padding-right: 21px;
     display: flex;
     justify-content: flex-end;
 }
 
-.letter-spacing-extended {}
+.letter-spacing-extended {
+    letter-spacing: 0.3em;
+}
 
 
 .cover__description {
-    /*todo*/
     display: flex;
     justify-content: space-between;
-    margin: 56px 50px 0 50px;
+    margin: 155px 40px 0px 50px;
 }
 
 .cover__description-text {
     display: inline-block;
-    color: white;
+    font-family: Raleway;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 22px;
+    color: rgba(255, 255, 255, 1);
+    line-height: 28px;
+    letter-spacing: 0em;
+    word-spacing: 0.9em;
+    text-transform: uppercase;
 }
 
-.bet-button {}
+.cover__description-text_another {
+    word-spacing: 0.8em;
+}
+
+.bet-button {
+    position: relative;
+    margin-top: -12px;
+    left: -12px;
+    padding: 12px 30px;
+
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 1);
+    font-family: Raleway;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 0;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 1);
+
+}
 
 /*лоты*/
 .lots {}
 
 .lots__heading {
     /*todo*/
-    margin: 165px 915px 0 64px;
+    margin: 185px 915px 0 64px;
     font-family: Raleway;
     font-weight: 700;
     font-style: Bold;
@@ -145,10 +203,13 @@
 }
 
 .lots__card-list {
-    padding-top: 27px;
+    padding-top: 28px;
+    padding-left: 10px;
+    padding-right: 10px;
     display: flex;
     justify-content: space-around;
     list-style: none;
+    gap: 0px
 }
 
 .lots__card-list-item {
@@ -171,18 +232,19 @@
 }
 
 .card__title {
-    /*todo*/
+    padding-left: 40px;
+    padding-top: 47px;
+    padding-right: 25px;
+
     font-family: Raleway;
     font-weight: 700;
     font-style: Bold;
     font-size: 22px;
-    leading-trim: NONE;
     line-height: 120%;
-    letter-spacing: 0%;
+
     text-transform: uppercase;
     text-decoration: underline;
     text-decoration-style: solid;
-    text-decoration-offset: 0%;
     text-decoration-thickness: 0%;
 
     position: relative;
@@ -190,14 +252,17 @@
 }
 
 .card__text {
-    /*todo*/
+    padding-left: 40px;
+    padding-bottom: 50px;
+    width: 295px;
+
     font-family: Raleway;
     font-weight: 400;
     font-style: Regular;
     font-size: 20px;
-    leading-trim: NONE;
     line-height: 120%;
     letter-spacing: 0%;
+
 
     position: relative;
     z-index: 1;
@@ -218,7 +283,15 @@
 
 .lots__look-more-link {
     display: block;
-    margin: 30px 0 0 40px;
+    margin: 32px 0 0 62px;
+
+    font-family: Raleway;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
 }
 
 /*об аукционе*/
@@ -230,7 +303,7 @@
 }
 
 .about_logo {
-    margin: 35px 0 0 47px;
+    margin: 157px 0 0 70px;
 }
 
 .about_logo-background {
@@ -250,41 +323,56 @@
 }
 
 .about_content {
-    margin: 133px 0 0 59px;
+    margin: 263px 0 0 59px;
 }
 
 .about__title {
-    /*todo*/
+    position: relative;
+    margin-left: -45px;
     font-family: Raleway;
     font-weight: 700;
     font-style: Bold;
     font-size: 40px;
-    leading-trim: NONE;
     line-height: 100%;
     letter-spacing: 0%;
     text-transform: uppercase;
 
+
 }
 
 .about__text {
+    position: relative;
+    margin-left: -44px;
+    width: 690px;
     display: flex;
     flex-direction: column;
     margin-top: 100px;
     gap: 24px;
 }
 
-.about__text-paragraf {}
+.about__text-paragraf {
+    font-family: Raleway;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0%;
+
+}
 
 /*футтер*/
 .footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
-    margin-top: 180px;
+    margin-top: 183px;
 }
 
 
-.footer__address {}
+.footer__address {
+    position: relative;
+    margin-left: -30px;
+}
 
 .footer__menu {}
 
@@ -297,7 +385,16 @@
 
 .footer__menu-list-item {}
 
-.footer__menu-link {}
+.footer__menu-link {
+    font-family: Raleway;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: -1px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
 
 .footer__menu-link_active {
     text-decoration: none;
@@ -305,7 +402,10 @@
 
 .footer__social-list {
     display: flex;
-    gap: 40px;
+    justify-content: space-between;
+    width: 260px;
+    padding-left: 20px;
+
 }
 
 .footer__social-link {
