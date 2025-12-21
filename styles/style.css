@@ -2,8 +2,7 @@
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
-    margin-top: 92px;
-    padding-bottom: 93px;
+    padding-top: 90px;
 }
 
 .header__links-list {
@@ -73,7 +72,6 @@
     background-image: url("../images/cover.jpg");
     background-position: center;
     background-size: cover;
-    z-index: 0;
 }
 
 .overlay {
@@ -83,9 +81,19 @@
     z-index: 0;
 }
 
+.cover__title {
+    position: relative;
+    z-index: 1;
+}
+
+.cover__description {
+    position: relative;
+    z-index: 1;
+}
+
 .aligned-text {
     display: block;
-    margin-top: 151px;
+    margin-top: 95px;
     padding-left: 50px;
     font-family: Raleway, Arial, sans-serif;
     font-weight: 700;
@@ -96,7 +104,7 @@
 }
 
 .aligned-text_left {
-    padding-top: 12px;
+    padding-top: 164px;
     display: flex;
     justify-content: flex-start;
 }
@@ -126,7 +134,7 @@
 }
 
 .cover__description-text {
-    padding-top: 15px;
+    padding-top: 13px;
     display: inline-block;
     font-family: Raleway, Arial, sans-serif;
     font-weight: 400;
