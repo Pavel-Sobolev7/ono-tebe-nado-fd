@@ -81,17 +81,14 @@
     z-index: 0;
 }
 
-.cover__title {
-    position: relative;
-    z-index: 1;
-}
-
 .cover__description {
     position: relative;
     z-index: 1;
 }
 
 .aligned-text {
+    position: relative;
+    z-index: 1;
     display: block;
     margin-top: 95px;
     padding-left: 50px;
@@ -270,11 +267,8 @@
     grid-template-columns: min-content 2fr;
 }
 
-.about_logo {
-    margin: 157px 0 0 70px;
-}
-
 .about_logo-background {
+    margin: 157px 0 0 70px;
     width: 240px;
     height: 240px;
     border-radius: 50%;
