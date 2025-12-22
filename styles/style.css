@@ -52,13 +52,14 @@
 }
 
 .address__link {
-    text-decoration: none;
+    text-decoration: underline;
     font-style: normal;
     font-family: Raleway, Arial, sans-serif;
     font-weight: 400;
     font-size: 18px;
-    line-height: 24.3px;
+    line-height: 24px;
     letter-spacing: 0;
+    text-underline-offset: 0.3em;
 }
 
 .address__link_no-underline {
@@ -124,12 +125,6 @@
     letter-spacing: 0.3em;
 }
 
-.cover__description {
-    display: flex;
-    justify-content: space-between;
-    margin: 104px 50px 0px 50px;
-}
-
 .cover__description-text {
     padding-top: 13px;
     display: inline-block;
@@ -179,13 +174,13 @@
 
 .lots__card-list {
     padding-top: 28px;
-    padding-left: 10px;
+    padding-left: 23px;
     padding-right: 10px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: flex-start;
     list-style: none;
-    gap: 0px
+    gap: 25px
 }
 
 .lots__card-list-item {
@@ -259,6 +254,7 @@
     font-size: 20px;
     line-height: 100%;
     letter-spacing: 0;
+    text-underline-offset: 0.3em;
 }
 
 /*об аукционе*/
@@ -322,6 +318,7 @@
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
     margin-top: 183px;
+    margin-bottom: 82px;
 }
 
 .footer__address {
@@ -342,6 +339,7 @@
     font-size: 18px;
     letter-spacing: 0;
     text-align: center;
+    text-underline-offset: 0.3em;
 }
 
 .footer__menu-link_active {
