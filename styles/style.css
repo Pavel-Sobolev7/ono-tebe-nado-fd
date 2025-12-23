@@ -126,7 +126,8 @@
 }
 
 .cover__description-text {
-    padding-top: 13px;
+    padding-top: 115px;
+    padding-left: 50px;
     display: inline-block;
     font-family: Raleway, Arial, sans-serif;
     font-weight: 400;
@@ -144,6 +145,7 @@
 }
 
 .bet-button {
+    margin-left: 104px;
     padding: 11px 30px;
     background-color: transparent;
     border: 2px solid rgba(255, 255, 255, 1);
@@ -217,6 +219,7 @@
     text-decoration-thickness: 0%;
     position: relative;
     z-index: 1;
+    text-underline-offset: 0.2em;
 }
 
 .card__text {
